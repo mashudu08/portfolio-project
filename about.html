@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Mashudu">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
@@ -14,10 +15,31 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e814a4c602.js" crossorigin="anonymous"></script>
-    <title>About</title>
+    <title>About Mashudu</title>
 </head>
-
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="images/logo.png" class="logo d-none d-md-block" alt="Mashudu Logo">
+                <img src="images/small-logo.jpg" class="logo d-block d-md-none" alt="Mashudu Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li class="active">
+                    <a href="/about.html" title="About Mashudu">About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Mashudu's Work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Mashudu">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="content-container container">
         <div class="row">
             <div class="col-md-6">
@@ -32,10 +54,29 @@
             </div>
         </div>
             <div class="col-md-6">
-                <img src="images/patricia.png" class="img-fluid" alt="">
+                <img src="images/patricia.png" class="img-fluid" alt="Picture of Mashudu">
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding" title="Email me">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:mluvhengo25@gmail.com" class="email-link" title="Email Mashudu">mluvhengo25@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+            <a href="https://www.github.com/mashudu08" target="_blank" title="Gitub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/mashuduu" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/mashudu08" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p class="text-center mt-5 text-muted">This project was coded by Mashudu Luvhengo, and it is <a href="https://github.com/mashudu08/portfolio-project" target="_blank"> open-sourced</a> 🚀</p>
+    </footer>
 </body>
-
 </html>
